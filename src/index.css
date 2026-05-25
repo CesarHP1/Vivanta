@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", ui-serif, system-ui, serif;
+}
+
+.geometric-bg {
+  background-color: #0F172A;
+  background-image: radial-gradient(circle at 2px 2px, #1E293B 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.card-glass {
+  background: rgba(30, 41, 59, 0.7);
+  border: 1px solid rgba(51, 65, 85, 1);
+  backdrop-filter: blur(8px);
+}
+
+/* Custom scrolling list animations and micro-effects */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
